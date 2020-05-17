@@ -1,0 +1,317 @@
+/* CSS Document */
+
+
+
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #363636;
+}
+
+h1 {
+	font-size: 98px;
+	line-height: 104px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 0px 10px;
+	color: #ed1f24;
+}
+
+
+h2 {
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 500;
+	margin: 0px 0px 10px;
+	color: #ed1f24;
+}
+
+h3 {
+	font-size: 25px;
+	line-height: 31px;
+	font-weight: 400;
+	margin: 0px 0px 10px; 
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	margin: 0px 0px 20px; 
+}
+
+p {
+	margin: 10px 0px 10px; 
+}
+
+ul {
+	padding-top: 10px;	
+	padding-bottom: 10px;	
+}
+
+li {
+	margin: 0px 0px 10px;	
+}
+
+img {
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.rounded-button {
+	background-color: #016098;
+	border-radius: 100px;
+	color: #ffffff !important;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 28px;
+	width: 250px;
+	margin: 30px auto;
+	display: table-cell;
+	display: block;
+}
+
+.bluesuare {
+	list-style-type: none;
+}
+
+.bluesuare li:before {
+	content: "■";
+	color: #016098;
+	font-weight: 400;
+	font-size: 16px;
+	margin-left: -20px;
+	margin-right: 10px;
+}
+
+
+@media only screen and (min-width : 768px) {
+  .is-table-row {
+    display: table;
+	table-layout: fixed;
+  }
+  .is-table-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+
+/*TOP*/
+
+#top {
+	min-height: 800px;
+	background-image: url("../images/rodo-top.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	position: relative;
+}
+
+.top-box {
+	position: absolute;
+	width: 100%;
+	top: 45%;
+}
+
+.top-box-bg {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	background-color: #fff;
+	left: 0;
+	top: 0;
+}
+
+.top-box-title {
+	background-color: #fff;
+	padding: 40px;	
+}
+
+.top-box-title img {
+	margin: 0px 0px 10px;
+}
+
+@media screen and (max-width: 767px) {
+	#top {
+		min-height: 600px;
+		background-image: url("../images/rodo-top.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}	
+}
+
+/*TOP end*/
+
+
+/*Section1*/
+
+#section1 {
+	background-color: #dee1e3;
+	padding: 60px;
+}
+
+@media screen and (max-width: 767px) {
+	#section1 {
+		background-color: #dee1e3;
+		padding: 40px 10px;
+	}
+}
+
+/*Section1 end*/
+
+
+/*Section2*/
+
+#section2 {
+	background-color: #fff;
+	padding: 60px 0px 0px;
+	position: relative;
+}
+
+.section2-box-bg {
+	position: absolute;
+	height: 100%;
+	width: 25%;
+	background-color: #dee1e3;
+	left: 0;
+	top: 0;	
+}
+
+#section2 .row {
+	overflow: hidden;
+}
+
+.section2-darkgrey {
+	background-color: #BCC6CD;
+	padding: 30px 70px 30px 30px;
+	position: relative;
+}
+
+.section2-darkgrey img {
+	position: absolute;	
+	left: calc(100% - 50px);
+	top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+	.section2-darkgrey {
+		background-color: #BCC6CD;
+		padding: 30px 30px 30px 30px;
+		position: relative;
+	}
+
+	.section2-darkgrey img {
+		position: inherit;	
+		left: 0;
+		top: 0;
+	}
+}
+
+/*Section2 end*/
+
+
+/*Section3*/
+
+#section3 {
+	background-color: #016098;
+	color: #fff;
+	padding: 60px;
+}
+
+.section3-textbox {
+	padding: 50px 0px;	
+}
+
+@media screen and (max-width: 1199px) {
+	.section3-textbox {
+		padding: 0px 0px 40px;	
+	}	
+}
+
+@media screen and (max-width: 767px) {
+	#section3 {
+		background-color: #016098;
+		color: #fff;
+		padding: 40px 10px;
+	}
+	
+	.section3-textbox {
+		padding: 20px 0px 40px;	
+	}	
+}
+
+/*Section3 end*/
+
+
+/*Section4*/
+
+#section4 {
+	background-color: #fff;
+	padding: 60px;
+}
+
+@media screen and (max-width: 767px) {
+	#section4 {
+		background-color: #fff;
+		padding: 40px 10px;
+	}	
+}
+
+.section4-textbox {
+	padding: 50px 0px;	
+}
+
+/*Section4 end*/
+
+
+/*Section5*/
+
+#section5 {
+	background-color: #fafafa;
+	padding: 60px;
+}
+
+/*Section5 end*/
+
+
+/*footer*/
+
+#footer {
+	background-color: #002A42;
+	padding: 20px 0px;
+}
+
+#footer p {
+	color: #fff;
+	font-size: 13px;
+	line-height: 19px;		
+}
+
+/*footer end*/
+
+
+/*nav section */
+.navbar-brand{
+	width: 100px;
+	height:100px;
+	transform: translateY(15px);
+}
+.fixed{
+	position: fixed;
+	width: 100%;
+	top:0;
+	z-index: 20;
+
+	/*section*/
+}
+.row-top{
+	text-decoration: underline;
+}
